@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
 
         //adding user, the name for this variables User, Firstname and Lastname are inherited from one of the tutorials I have followed. I wont change this name, in honor of them :)
 
-        item.add(EggPages("https://raw.githubusercontent.com/MosaMesaDev/myCV/master/src/main/res/drawable/mycvastrologer.png","Astrologer", "The Astrologer activity was a basic lesson for me about working with input fields in an activity. Even tho in this particular case, the outcome will always be the same ;) ."))
+        item.add(EggPages("https://raw.githubusercontent.com/MosaMesaDev/EggTimer/master/app/src/main/res/drawable/boiledegg.png","Boiled Eggs", "Boiling eggs is the simplest way to enjoying them. Whether you like your eggs hard, medium, or soft boiled, follow the same boiling time for the perfect boiled eggs every time."))
         item.add(EggPages("https://raw.githubusercontent.com/MosaMesaDev/myCV/master/src/main/res/drawable/mycvbestproperty.png","Property locator", "In this activity you want to compare 5 neighbourhoods, you want to know which has the lowest max distance to the 5 services you need. \n\nFor interactivity, you place 5 important services, and then the algorithm will show which area has the lowest maximum distance to all 5 services."))
 
         //Adapter setting
@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
 
                 //If you click on position 0, you open the Astrologer activity
                 if( position == 0 )                     {
-                    val intent = android.content.Intent(this@MainActivity, Astrologer::class.java)
+                    val intent = android.content.Intent(this@MainActivity, BoiledEggs::class.java)
                     startActivity(intent)
                 }
 

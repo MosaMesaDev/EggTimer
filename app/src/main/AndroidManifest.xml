@@ -22,6 +22,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Astrologer"></activity>
+        <activity android:name=".BoiledEggs"></activity>
+
     </application>
 
 </manifest>
