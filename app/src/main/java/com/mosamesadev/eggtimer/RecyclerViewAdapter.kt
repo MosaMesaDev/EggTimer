@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 
 
-class RecyclerViewAdapter(val userList: ArrayList<User>) : RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder>() {
+class RecyclerViewAdapter(val eggPagesList: ArrayList<EggPages>) : RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder>() {
 
 
     private lateinit var mListener : onItemClickListener
@@ -31,10 +31,10 @@ class RecyclerViewAdapter(val userList: ArrayList<User>) : RecyclerView.Adapter<
         return ViewHolder(view, mListener)
     }
     override fun onBindViewHolder(holder: RecyclerViewAdapter.ViewHolder, position: Int) {
-        holder.bind(userList[position])
+        holder.bind(eggPagesList[position])
     }
     override fun getItemCount(): Int {
-        return userList.size
+        return eggPagesList.size
     }
     class ViewHolder(itemView: View, listener:onItemClickListener) : RecyclerView.ViewHolder(itemView) {
 
@@ -44,17 +44,17 @@ class RecyclerViewAdapter(val userList: ArrayList<User>) : RecyclerView.Adapter<
             }
 
         }
-        fun bind(user: User) {
+        fun bind(eggPages: EggPages) {
 
             Glide.with(itemView.context)
-                .load(user.CVRecyclerImage)
+                .load(eggPages.EggPageRecyclerImage)
                 .into(itemView.findViewById(R.id.CVRecyclerImage))
 
             val textViewName = itemView.findViewById<TextView>(R.id.firstname)
             val textViewLastname = itemView.findViewById<TextView>(R.id.lastname)
 
-            textViewName.text = user.Firstname
-            textViewLastname.text = user.Lastname
+            textViewName.text = eggPages.EggPageTitle
+            textViewLastname.text = eggPages.EggPageShortText
 
 
         }
