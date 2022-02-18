@@ -21,7 +21,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Astrologer"></activity>
+        <activity android:name=".Timer"></activity>
         <activity android:name=".BoiledEggs"></activity>
 
     </application>
