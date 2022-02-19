@@ -6,15 +6,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:layout_constraintBottom_toTopOf="@id/BottomPart"
     tools:context=".Timer"
 >
-<androidx.constraintlayout.widget.ConstraintLayout
+
+    <androidx.constraintlayout.widget.ConstraintLayout
     android:id="@+id/TopPart"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintBottom_toTopOf="@id/BottomPart"
     android:layout_width="match_parent"
-        android:layout_height="400dp">
+    android:layout_height="400dp">
+
     <ProgressBar
-        android:max="240"
         android:id="@+id/progress_bar"
         style="@style/CircularDeterminateProgressBar"
         android:layout_width="match_parent"
@@ -36,7 +38,8 @@
         app:layout_constraintTop_toTopOf="@+id/progress_bar"
         android:textSize="80sp"
         tools:text="100%" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -54,7 +57,7 @@
 
         <Button
             android:onClick="on"
-            android:id="@+id/btn_main_start"
+            android:id="@+id/btn_start"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -63,7 +66,7 @@
 
         <Button
             android:onClick="on"
-            android:id="@+id/btn_main_pause"
+            android:id="@+id/btn_pause"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -72,7 +75,7 @@
 
         <Button
             android:onClick="on"
-            android:id="@+id/btn_main_rest"
+            android:id="@+id/btn_reset"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
