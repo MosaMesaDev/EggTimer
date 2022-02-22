@@ -2,4 +2,15 @@
     <string name="app_name">EggTimer</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="image">Image</string>
+    <string name="boiled_eggs_string">Whether you like your eggs hard, or soft, follow the same boiling time for the perfect boiled eggs every time.</string>
+    <string name="soft_boiled">Soft boiled</string>
+    <string name="_4_minute_timer">4 minute timer</string>
+    <string name="_5_minute_timer">5 minute timer</string>
+    <string name="_6_minute_timer">6 minute timer</string>
+    <string name="hard_boiled">Hard boiled</string>
+    <string name="_7_minute_timer">7 minute timer</string>
+    <string name="_8_minute_timer">8 minute timer</string>
+    <string name="_10_minute_timer">10 minute timer</string>
+
 </resources>
