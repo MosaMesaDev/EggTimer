@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
 
         item.add(EggPages("https://raw.githubusercontent.com/MosaMesaDev/EggTimer/master/app/src/main/res/drawable/boiledegg.png","Boiled Eggs", "Boiling eggs is the simplest way to enjoying them. Whether you like your eggs hard, medium, or soft boiled, follow the same boiling time for the perfect boiled eggs every time."))
         item.add(EggPages("https://raw.githubusercontent.com/MosaMesaDev/EggTimer/master/app/src/main/res/drawable/poachedeggs.jpg","Poached Eggs", "More fancy than boiled eggs, but just as tasteful."))
+        item.add(EggPages("https://raw.githubusercontent.com/MosaMesaDev/EggTimer/master/app/src/main/res/drawable/friedeggs.jpg","Fried Eggs", "Fried eggs, more text will come."))
 
         //Adapter setting
         val newAdapter = RecyclerViewAdapter(item)
@@ -37,6 +38,10 @@ class MainActivity : AppCompatActivity() {
                 }
                 if( position == 1 )                     {
                     val intent = android.content.Intent(this@MainActivity, PoachedEggs::class.java)
+                    startActivity(intent)
+                }
+                if( position == 2 )                     {
+                    val intent = android.content.Intent(this@MainActivity, FriedEggs::class.java)
                     startActivity(intent)
                 }
 

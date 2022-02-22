@@ -24,6 +24,8 @@
         <activity android:name=".Timer"></activity>
         <activity android:name=".BoiledEggs"></activity>
         <activity android:name=".PoachedEggs"></activity>
+        <activity android:name=".FriedEggs"></activity>
+
 
 
     </application>
