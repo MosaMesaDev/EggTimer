@@ -1,16 +1,19 @@
 <resources>
     <string name="app_name">EggTimer</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="image">Image</string>
     <string name="boiled_eggs_string">Whether you like your eggs hard, or soft, follow the same boiling time for the perfect boiled eggs every time.</string>
+    <string name="poached_eggs_string">For a poached egg with less white whisps, you will need some vinegar. Get a deep pan of water to a boil, add a little vinegar, then stir the water. While the water is moving around, crack open an egg and let it drop into the water. The vinegar together with the movement of the water should keep your egg mostly together. Boil the egg for 3 minutes.</string>
     <string name="soft_boiled">Soft boiled</string>
+    <string name="hard_boiled">Hard boiled</string>
+    <string name="_3_minute_timer">3 minute timer</string>
     <string name="_4_minute_timer">4 minute timer</string>
     <string name="_5_minute_timer">5 minute timer</string>
     <string name="_6_minute_timer">6 minute timer</string>
-    <string name="hard_boiled">Hard boiled</string>
     <string name="_7_minute_timer">7 minute timer</string>
     <string name="_8_minute_timer">8 minute timer</string>
     <string name="_10_minute_timer">10 minute timer</string>
+
+
 
 </resources>
