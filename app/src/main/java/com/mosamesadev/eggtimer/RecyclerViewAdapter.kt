@@ -50,11 +50,9 @@ class RecyclerViewAdapter(val eggPagesList: ArrayList<EggPages>) : RecyclerView.
                 .load(eggPages.EggPageRecyclerImage)
                 .into(itemView.findViewById(R.id.CVRecyclerImage))
 
-            val textViewName = itemView.findViewById<TextView>(R.id.firstname)
-            val textViewLastname = itemView.findViewById<TextView>(R.id.lastname)
-
+            val textViewName = itemView.findViewById<TextView>(R.id.title)
             textViewName.text = eggPages.EggPageTitle
-            textViewLastname.text = eggPages.EggPageShortText
+
 
 
         }

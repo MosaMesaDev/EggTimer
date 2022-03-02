@@ -18,11 +18,9 @@ class MainActivity : AppCompatActivity() {
         recyclerView.layoutManager = LinearLayoutManager(this)
         val item = ArrayList<EggPages>()
 
-        //adding user, the name for this variables User, Firstname and Lastname are inherited from one of the tutorials I have followed. I wont change this name, in honor of them :)
-
-        item.add(EggPages("https://raw.githubusercontent.com/MosaMesaDev/EggTimer/master/app/src/main/res/drawable/boiledegg.png","Boiled Eggs", "Boiling eggs is the simplest way to enjoying them. Whether you like your eggs hard, medium, or soft boiled, follow the same boiling time for the perfect boiled eggs every time."))
-        item.add(EggPages("https://raw.githubusercontent.com/MosaMesaDev/EggTimer/master/app/src/main/res/drawable/poachedeggs.jpg","Poached Eggs", "More fancy than boiled eggs, but just as tasteful."))
-        item.add(EggPages("https://raw.githubusercontent.com/MosaMesaDev/EggTimer/master/app/src/main/res/drawable/friedeggs.jpg","Fried Eggs", "Fried eggs, more text will come."))
+        item.add(EggPages("https://raw.githubusercontent.com/MosaMesaDev/EggTimer/master/app/src/main/res/drawable/boiledegg.png","Boiled Eggs" ))
+        item.add(EggPages("https://raw.githubusercontent.com/MosaMesaDev/EggTimer/master/app/src/main/res/drawable/poachedeggs.jpg","Poached Eggs", ))
+        item.add(EggPages("https://raw.githubusercontent.com/MosaMesaDev/EggTimer/master/app/src/main/res/drawable/friedeggs.jpg","Fried Eggs" ))
 
         //Adapter setting
         val newAdapter = RecyclerViewAdapter(item)

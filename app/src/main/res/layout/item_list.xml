@@ -3,61 +3,44 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="200dp"
     android:orientation="vertical"
+
  >
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:cardElevation="12dp"
-        android:backgroundTint="#FFFFFFFF">
+        android:paddingBottom="8dp"
+        >
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:padding="12dp"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
+
 
             <ImageView
                 app:layout_constraintVertical_chainStyle="packed"
                 android:id="@+id/CVRecyclerImage"
                 android:layout_width="match_parent"
-                android:layout_height="140dp"
-                android:scaleType="matrix"
-                app:layout_constraintBottom_toTopOf="@id/firstname"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                android:layout_height="match_parent"
+                android:scaleType="matrix" />
 
             <TextView
-                android:id="@+id/firstname"
+                android:id="@+id/title"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:layout_constraintBottom_toTopOf="@id/lastname"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                android:textSize="20sp"
-                app:layout_constraintTop_toBottomOf="@id/CVRecyclerImage" />
-
-            <TextView
-                android:id="@+id/lastname"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/firstname"
-
+                android:layout_height="48sp"
+                android:layout_gravity="bottom"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:gravity="bottom"
+                android:textAlignment="gravity"
+                android:background="#70000000"
+                android:padding="8sp"
                 />
 
-            <androidx.constraintlayout.widget.Group
-                android:id="@+id/group"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:constraint_referenced_ids="CVRecyclerImage" />
-        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
     </androidx.cardview.widget.CardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
