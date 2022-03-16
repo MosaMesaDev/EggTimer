@@ -1,5 +1,6 @@
 package com.mosamesadev.eggtimer
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.timer.*
@@ -39,7 +40,10 @@ class Timer : AppCompatActivity() {
         updateProgressBar() // set the initial graphics of the circle
         startTimer() // and begin the countdown
     }
-
+    fun goToAfterTimer(){
+        val intent = Intent(this, AfterTimer::class.java)
+        startActivity(intent)
+    }
     fun on(view: View) {
         when(view.id){
             R.id.btn_pause -> pauseTimer() // what to do when the pause button is pressed
@@ -60,7 +64,7 @@ class Timer : AppCompatActivity() {
             }
 
             override fun onFinish() {
-                TODO("Not yet implemented")
+                goToAfterTimer()
             }
         }.start() // and begin!
     }

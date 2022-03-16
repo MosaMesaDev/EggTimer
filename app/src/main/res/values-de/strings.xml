@@ -8,8 +8,8 @@
     <string name="_8_minute_timer">8 Minuten</string>
     <string name="_10_minute_timer">10 Minuten</string>
     <string name="_9_minute_timer">9 Minuten</string>
-    <string name="pause">Pause</string>
-    <string name="restart">wieder starten</string>
+    <string name="pause">pausieren</string>
+    <string name="restart">zurücksetzen</string>
     <string name="place_eggs_in_boiling_water_and_start_timer">* Legen Sie Eier in kochendes Wasser und starten Sie den Timer.</string>
     <string name="place_eggs_in_cold_water_start_timer_when_water_boils">* Eier in kaltes Wasser legen. Starte den Timer, wenn das Wasser kocht</string>
     <string name="continue_string">fortsetzen</string>

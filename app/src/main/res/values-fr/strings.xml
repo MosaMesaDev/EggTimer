@@ -7,8 +7,8 @@
     <string name="_7_minute_timer">7 minutes</string>
     <string name="_8_minute_timer">8 minutes</string>
     <string name="_10_minute_timer">10 minutes</string>
-    <string name="pause">stop</string>
-    <string name="restart">recommencer</string>
+    <string name="pause">pause</string>
+    <string name="restart">réinitialiser</string>
     <string name="_9_minute_timer">9 minutes</string>
     <string name="place_eggs_in_boiling_water_and_start_timer">"* Placer les "</string>
     <string name="place_eggs_in_cold_water_start_timer_when_water_boils">* Placer les œufs dans de l\'eau froide. Démarrer la minuterie lorsque l\'eau bout</string>

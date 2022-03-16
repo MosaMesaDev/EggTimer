@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="restart">重新开始</string>
+    <string name="restart">重置</string>
     <string name="pause">暂停</string>
     <string name="_3_minute_timer">3分钟</string>
     <string name="_4_minute_timer">4分钟</string>

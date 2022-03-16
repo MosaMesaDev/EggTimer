@@ -37,6 +37,10 @@
         <activity android:name=".FriedEggs"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             ></activity>
+        <activity android:name=".AfterTimer"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        </activity>
 
 
 
