@@ -1,3 +1,3 @@
 package com.mosamesadev.eggtimer
 
-data class EggPages(val EggPageRecyclerImage:String, val EggPageTitle: String)
+data class EggPages(val EggPageRecyclerImage: Int, val EggPageTitle: String)

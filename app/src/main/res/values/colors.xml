@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <color name="EggBrown">#FFAE6204</color>
+    <color name="EggGreen">#FF6F9E71</color>
+    <color name="EggYellow">#FFFFF3BF</color>
+    <color name="EggAqua">#406652</color>
+    <color name="EggClay">#C4AEA1</color>
+
+
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>

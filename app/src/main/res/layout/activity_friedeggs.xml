@@ -3,50 +3,55 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    android:background="@color/EggClay"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="8dp">
 
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardViewforImageView"
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@id/spacer"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed"
+            app:cardCornerRadius="8dp"
+            >
         <ImageView
             android:id="@+id/imageView3"
             android:layout_width="match_parent"
             android:layout_height="190dp"
             android:scaleType="centerCrop"
-            app:layout_constraintBottom_toTopOf="@id/FriedEggsTextView"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_chainStyle="packed"
             app:srcCompat="@drawable/friedeggs"
             />
-
-        <TextView
-            android:id="@+id/FriedEggsTextView"
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/spacer"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="20sp"
-            android:text="@string/fried_eggs_string"
+            android:layout_height="12dp"
+            android:backgroundTint="@color/EggClay"
             app:layout_constraintBottom_toTopOf="@id/sixminutebutton"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/imageView3" />
-
-
-        <LinearLayout
+            app:layout_constraintTop_toBottomOf="@id/cardViewforImageView"
+            />
+        <androidx.cardview.widget.CardView
             android:id="@+id/sixminutebutton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="vertical"
-            android:paddingEnd="4dp"
-            android:paddingStart="0dp"
+            android:paddingTop="8dp"
+            app:cardCornerRadius="12dp"
+            app:cardBackgroundColor="@color/EggAqua"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toLeftOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/FriedEggsTextView">
+            app:layout_constraintTop_toBottomOf="@id/spacer">
 
             <Button
                 android:id="@+id/btn6minutetimer"
@@ -54,13 +59,15 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:text="@string/_6_minute_timer"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                android:textSize="27sp"
+                android:backgroundTint="@color/EggAqua"
+                android:textColor="@color/white"
+                android:paddingVertical="20dp"
+                android:paddingHorizontal="8dp"
+            />
 
 
-        </LinearLayout>
+        </androidx.cardview.widget.CardView>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

@@ -17,10 +17,16 @@ class MainActivity : AppCompatActivity() {
         val recyclerView = findViewById<RecyclerView>(R.id.recyclerView)
         recyclerView.layoutManager = LinearLayoutManager(this)
         val item = ArrayList<EggPages>()
+        var drawablefried = R.drawable.friedeggs
+        var drawablepoached = R.drawable.poachedeggs
+        var drawableboiled = R.drawable.boiledegg
 
-        item.add(EggPages("https://raw.githubusercontent.com/MosaMesaDev/EggTimer/master/app/src/main/res/drawable/boiledegg.png","Boiled Eggs" ))
-        item.add(EggPages("https://raw.githubusercontent.com/MosaMesaDev/EggTimer/master/app/src/main/res/drawable/poachedeggs.jpg","Poached Eggs", ))
-        item.add(EggPages("https://raw.githubusercontent.com/MosaMesaDev/EggTimer/master/app/src/main/res/drawable/friedeggs.jpg","Fried Eggs" ))
+
+        item.add(EggPages(drawableboiled,"BOILED" ))
+        item.add(EggPages(drawablepoached,"POACHED", ))
+        item.add(EggPages(drawablefried,"FRIED" ))
+        item.add(EggPages(drawablefried,"TEST" ))
+
 
         //Adapter setting
         val newAdapter = RecyclerViewAdapter(item)
@@ -29,7 +35,7 @@ class MainActivity : AppCompatActivity() {
             override fun onItemClick(position: Int) {
 
 
-                //If you click on position 0, you open the Astrologer activity
+                //If you click on position 0, you open the BoiledEggs activity
                 if( position == 0 )                     {
                     val intent = android.content.Intent(this@MainActivity, BoiledEggs::class.java)
                     startActivity(intent)

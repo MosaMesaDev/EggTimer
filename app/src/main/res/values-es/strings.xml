@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="place_eggs_in_cold_water_start_timer_when_water_boils">* Coloque los huevos en agua fría. Iniciar el temporizador cuando el agua hierva</string>
+    <string name="place_eggs_in_boiling_water_and_start_timer">* Coloque los huevos en agua hirviendo y encienda el temporizador.</string>
+    <string name="_3_minute_timer">3 minutos</string>
+    <string name="_4_minute_timer">4 minutos</string>
+    <string name="_5_minute_timer">5 minutos</string>
+    <string name="_6_minute_timer">6 minutos</string>
+    <string name="_7_minute_timer">7 minutos</string>
+    <string name="_8_minute_timer">8 minutos</string>
+    <string name="_10_minute_timer">10 minutos</string>
+    <string name="_9_minute_timer">9 minutos</string>
+    <string name="pause">pausa</string>
+    <string name="restart">reiniciar</string>
+    <string name="continue_string">continuar</string>
+</resources>

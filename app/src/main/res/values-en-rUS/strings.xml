@@ -1,5 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">EggTimer</string>
 
     <string name="_3_minute_timer">3 minutes</string>
     <string name="_4_minute_timer">4 minutes</string>
@@ -7,13 +7,12 @@
     <string name="_6_minute_timer">6 minutes</string>
     <string name="_7_minute_timer">7 minutes</string>
     <string name="_8_minute_timer">8 minutes</string>
+    <string name="_9_minute_timer">9 minutes</string>
     <string name="_10_minute_timer">10 minutes</string>
     <string name="pause">pause</string>
     <string name="restart">restart</string>
-    <string name="_9_minute_timer">9 minutes</string>
     <string name="place_eggs_in_boiling_water_and_start_timer">* Place eggs in boiling water and start timer.</string>
     <string name="place_eggs_in_cold_water_start_timer_when_water_boils">* Place eggs in cold water. Start timer when water boils</string>
     <string name="continue_string">continue</string>
-
 
 </resources>

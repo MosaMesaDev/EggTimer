@@ -10,8 +10,9 @@ class BoiledEggs : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_boiledeggs)
-        var secs = 0
+        var secs = 0 // this is used to intelligently set the start number of seconds for the timer
 
+        // every button.OnClickListener points to the same timer but with a different initial value of the timer.
         btn4minutetimer.setOnClickListener {
 
             val intent = Intent(this, Timer::class.java)
@@ -19,13 +20,7 @@ class BoiledEggs : AppCompatActivity() {
                 intent.putExtra("secs", secs)
             startActivity(intent)
             }
-        btn5minutetimer.setOnClickListener {
 
-            val intent = Intent(this, Timer::class.java)
-            secs = 300
-            intent.putExtra("secs", secs)
-            startActivity(intent)
-        }
         btn6minutetimer.setOnClickListener {
 
             val intent = Intent(this, Timer::class.java)
@@ -33,24 +28,10 @@ class BoiledEggs : AppCompatActivity() {
             intent.putExtra("secs", secs)
             startActivity(intent)
         }
-        btn7minutetimer.setOnClickListener {
+        btn9minutetimer.setOnClickListener {
 
             val intent = Intent(this, Timer::class.java)
-            secs = 420
-            intent.putExtra("secs", secs)
-            startActivity(intent)
-        }
-        btn8minutetimer.setOnClickListener {
-
-            val intent = Intent(this, Timer::class.java)
-            secs = 480
-            intent.putExtra("secs", secs)
-            startActivity(intent)
-        }
-        btn10minutetimer.setOnClickListener {
-
-            val intent = Intent(this, Timer::class.java)
-            secs = 600
+            secs = 540
             intent.putExtra("secs", secs)
             startActivity(intent)
         }

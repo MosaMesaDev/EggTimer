@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="restart">重新开始</string>
+    <string name="pause">暂停</string>
+    <string name="_3_minute_timer">3分钟</string>
+    <string name="_4_minute_timer">4分钟</string>
+    <string name="_5_minute_timer">5分钟</string>
+    <string name="_6_minute_timer">6分钟</string>
+    <string name="_7_minute_timer">7分钟</string>
+    <string name="_8_minute_timer">8分钟</string>
+    <string name="_10_minute_timer">10分钟</string>
+    <string name="_9_minute_timer">9分钟</string>
+    <string name="place_eggs_in_boiling_water_and_start_timer">* 将鸡蛋放入沸水中并启动计时器。</string>
+    <string name="place_eggs_in_cold_water_start_timer_when_water_boils">* 将鸡蛋放入冷水中。 当水沸腾时启动计时器</string>
+    <string name="continue_string">继续</string>
+</resources>

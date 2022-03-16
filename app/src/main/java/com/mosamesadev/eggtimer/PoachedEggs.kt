@@ -10,7 +10,9 @@ class PoachedEggs : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_poachedeggs)
-        var secs = 0
+        var secs = 0// this is used to intelligently set the start number of seconds for the timer
+
+        // this button.OnClickListener points to the timer with an initial value of 180 for the timer.
 
         btn3minutetimer.setOnClickListener {
 

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="_3_minute_timer">3 minuten</string>
+    <string name="_4_minute_timer">4 minuten</string>
+    <string name="_5_minute_timer">5 minuten</string>
+    <string name="_6_minute_timer">6 minuten</string>
+    <string name="_7_minute_timer">7 minuten</string>
+    <string name="_8_minute_timer">8 minuten</string>
+    <string name="_10_minute_timer">10 minuten</string>
+    <string name="pause">pauze</string>
+    <string name="restart">herstart</string>
+    <string name="_9_minute_timer">9 minuten</string>
+    <string name="place_eggs_in_boiling_water_and_start_timer">* Leg de eieren in kokend water en start de timer.</string>
+    <string name="place_eggs_in_cold_water_start_timer_when_water_boils">*Plaats het ei in koud water, start de timer wanneer het water kookt</string>
+    <string name="continue_string">doorgaan</string>
+</resources>

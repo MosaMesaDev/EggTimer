@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="_3_minute_timer">3 Minuten</string>
+    <string name="_4_minute_timer">4 Minuten</string>
+    <string name="_5_minute_timer">5 Minuten</string>
+    <string name="_6_minute_timer">6 Minuten</string>
+    <string name="_7_minute_timer">7 Minuten</string>
+    <string name="_8_minute_timer">8 Minuten</string>
+    <string name="_10_minute_timer">10 Minuten</string>
+    <string name="_9_minute_timer">9 Minuten</string>
+    <string name="pause">Pause</string>
+    <string name="restart">wieder starten</string>
+    <string name="place_eggs_in_boiling_water_and_start_timer">* Legen Sie Eier in kochendes Wasser und starten Sie den Timer.</string>
+    <string name="place_eggs_in_cold_water_start_timer_when_water_boils">* Eier in kaltes Wasser legen. Starte den Timer, wenn das Wasser kocht</string>
+    <string name="continue_string">fortsetzen</string>
+</resources>
